@@ -1,0 +1,24 @@
+#
+#
+#
+Sigma:
+	S1
+	S2
+	S3
+End
+#
+#
+#
+States:
+    state1, F
+	state2
+	state3
+	state4, S
+End
+#
+#
+#
+Transitions:
+    state4, S1, state2
+	state2, S2, state1
+End
